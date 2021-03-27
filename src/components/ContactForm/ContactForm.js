@@ -34,7 +34,7 @@ export default class ContactForm extends Component {
             name="name"
             value={name}
             onChange={this.handleChange}
-            placeholder="Rosie Simpson"
+            placeholder="Jennifer Aniston"
           />
         </label>
         <label className={s.label}>
@@ -45,7 +45,7 @@ export default class ContactForm extends Component {
             name="number"
             value={number}
             onChange={this.handleChange}
-            placeholder="123-45-67"
+            placeholder="777-77-77"
           />
         </label>
         <button className={s.btn} type="submit">
