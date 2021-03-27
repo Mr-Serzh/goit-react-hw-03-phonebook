@@ -6,7 +6,7 @@ import ContactForm from './components/ContactForm/ContactForm';
 import Filter from './components/Filter/Filter';
 import ContactList from './components/ContactList/ContactList';
 
-class App extends Component {
+export default class App extends Component {
   state = {
     contacts: [
       { id: shortid.generate(), name: 'Rosie Simpson', number: '459-12-56' },
@@ -89,5 +89,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
